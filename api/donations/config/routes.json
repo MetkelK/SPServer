@@ -35,7 +35,7 @@
     {
       "method": "POST",
       "path": "/donations/payments",
-      "handler": "donations.create",
+      "handler": "donations.setUpStripeSession",
       "config": {
         "policies": []
       }
