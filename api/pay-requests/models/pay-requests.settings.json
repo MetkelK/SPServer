@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pay_requests",
+  "info": {
+    "name": "PayRequests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "First": {
+      "type": "string"
+    },
+    "Last": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "biginteger"
+    },
+    "Message": {
+      "type": "richtext"
+    }
+  }
+}

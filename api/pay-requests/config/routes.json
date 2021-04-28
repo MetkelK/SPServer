@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pay-requests",
+      "handler": "pay-requests.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-requests/count",
+      "handler": "pay-requests.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pay-requests/:id",
+      "handler": "pay-requests.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pay-requests",
+      "handler": "pay-requests.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pay-requests/:id",
+      "handler": "pay-requests.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pay-requests/:id",
+      "handler": "pay-requests.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
