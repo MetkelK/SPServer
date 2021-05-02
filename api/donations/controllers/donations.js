@@ -13,8 +13,8 @@ module.exports = {
     const configuredAmount = amount * 100;
 
     const session = await stripe.checkout.sessions.create({
-      success_url: "https://localhost:3000",
-      cancel_url: "https://localhost:3000",
+      success_url: "https://sick-pay-fund.vercel.app/",
+      cancel_url: "https://sick-pay-fund.vercel.app/donation",
       payment_method_types: ["card"],
       line_items: [
         {
